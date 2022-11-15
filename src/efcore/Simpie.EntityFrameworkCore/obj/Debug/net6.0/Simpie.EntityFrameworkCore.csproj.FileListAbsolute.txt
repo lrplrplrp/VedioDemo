@@ -1,0 +1,15 @@
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\bin\Debug\net6.0\Simpie.EntityFrameworkCore.deps.json
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\bin\Debug\net6.0\Simpie.EntityFrameworkCore.dll
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\bin\Debug\net6.0\Simpie.EntityFrameworkCore.pdb
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\bin\Debug\net6.0\Simple.EntityFrameworkCore.Core.dll
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\bin\Debug\net6.0\Simple.EntityFrameworkCore.Core.pdb
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\Simpie.EntityFrameworkCore.csproj.AssemblyReference.cache
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\Simpie.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\Simpie.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\Simpie.EntityFrameworkCore.AssemblyInfo.cs
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\Simpie.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\Simpie.EntityFrameworkCore.csproj.CopyComplete
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\Simpie.EntityFrameworkCore.dll
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\refint\Simpie.EntityFrameworkCore.dll
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\Simpie.EntityFrameworkCore.pdb
+D:\C#dome\Video\src\efcore\Simpie.EntityFrameworkCore\obj\Debug\net6.0\ref\Simpie.EntityFrameworkCore.dll

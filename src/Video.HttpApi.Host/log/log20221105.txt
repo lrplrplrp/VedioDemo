@@ -1,0 +1,30 @@
+
+Date:2022-11-05 13:47:06.524
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-05 15:52:32.520
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-05 16:09:35.858
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-05 17:22:42.479
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-05 17:24:22.558
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-05 17:27:52.940
+LogLevel:Information
+Class:
+Message:测试日志提供程序

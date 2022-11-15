@@ -1,0 +1,132 @@
+
+Date:2022-11-13 08:23:31.179
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-13 08:27:14.919
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-13 08:30:04.966
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 08:30:04.970
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 08:30:29.914
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 08:30:29.914
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 08:43:21.750
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-13 09:03:29.820
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 09:03:29.825
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 09:04:00.073
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 09:04:00.073
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 14:19:02.483
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-13 14:28:20.708
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-13 14:31:36.714
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-13 14:41:24.667
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 14:41:24.671
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 14:41:54.593
+LogLevel:Error
+Class:Microsoft.EntityFrameworkCore.Database.Command
+Message:Failed executing DbCommand ("26"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE UserInfo SET Status=@p0 WHERE Id In (@p1)"
+
+Date:2022-11-13 14:41:54.920
+LogLevel:Error
+Class:Video.HttpApi.Host.Filters.ExceptionFilter
+Message:Path "/api/UserInfo/status" message "MySqlConnector.MySqlException (0x80004005): Incorrect integer value: 'False' for column 'Status' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 954
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 44
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 127
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 456
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 282
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at Video.EntityFrameworkCore.User.UserInfoRepository.StatusAsync(IEnumerable`1 ids, Boolean status) in D:\C#dome\Video\src\Video.EntityFrameworkCore\User\UserInfoRepository.cs:line 107
+   at Video.Application.UserInfos.UserInfoService.StatusAsync(IEnumerable`1 ids, Boolean status) in D:\C#dome\Video\src\Video.Application\UserInfos\UserInfoService.cs:line 44
+   at Video.HttpApi.Host.Controllers.UserInfoController.StatusAsync(IEnumerable`1 ids, Boolean status) in D:\C#dome\Video\src\Video.HttpApi.Host\Controllers\UserInfoController.cs:line 80
+   at lambda_method168(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+
+Date:2022-11-13 14:43:07.358
+LogLevel:Information
+Class:
+Message:测试日志提供程序
+
+Date:2022-11-13 14:44:00.589
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 14:44:00.594
+LogLevel:Warning
+Class:Microsoft.EntityFrameworkCore.Query
+Message:The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+
+Date:2022-11-13 14:51:12.010
+LogLevel:Information
+Class:
+Message:测试日志提供程序

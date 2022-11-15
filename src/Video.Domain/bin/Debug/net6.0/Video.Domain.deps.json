@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Video.Domain/1.0.0": {
+        "dependencies": {
+          "Simple.EntityFrameworkCore.Core": "1.0.0",
+          "Video.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "Video.Domain.dll": {}
+        }
+      },
+      "NSwag.Annotations/13.17.0": {
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "assemblyVersion": "13.17.0.0",
+            "fileVersion": "13.17.0.0"
+          }
+        }
+      },
+      "Simple.EntityFrameworkCore.Core/1.0.0": {
+        "runtime": {
+          "Simple.EntityFrameworkCore.Core.dll": {}
+        }
+      },
+      "Video.Application.Contract/1.0.0": {
+        "dependencies": {
+          "NSwag.Annotations": "13.17.0",
+          "Video.Domain.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Video.Application.Contract.dll": {}
+        }
+      },
+      "Video.Domain.Shared/1.0.0": {
+        "runtime": {
+          "Video.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Video.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.Annotations/13.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7IFTuAYSsONbPAcN0bCsmeEMHBr9IsMRvulW92ur6kuEPDrX5fl4C72GnxMtVSG2PreQNQwSvTOSjvEl7CwWRA==",
+      "path": "nswag.annotations/13.17.0",
+      "hashPath": "nswag.annotations.13.17.0.nupkg.sha512"
+    },
+    "Simple.EntityFrameworkCore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Video.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Video.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

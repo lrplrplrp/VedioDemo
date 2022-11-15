@@ -1,0 +1,16 @@
+d:\C#dome\Video\src\Video.Application.Contract\bin\Debug\net6.0\Video.Application.Contract.deps.json
+d:\C#dome\Video\src\Video.Application.Contract\bin\Debug\net6.0\Video.Application.Contract.dll
+d:\C#dome\Video\src\Video.Application.Contract\bin\Debug\net6.0\Video.Application.Contract.pdb
+d:\C#dome\Video\src\Video.Application.Contract\bin\Debug\net6.0\Video.Application.Contract.xml
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\Video.Application.Contract.csproj.AssemblyReference.cache
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\Video.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\Video.Application.Contract.AssemblyInfoInputs.cache
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\Video.Application.Contract.AssemblyInfo.cs
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\Video.Application.Contract.csproj.CoreCompileInputs.cache
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\Video.Application.Contract.dll
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\refint\Video.Application.Contract.dll
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\Video.Application.Contract.pdb
+d:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\ref\Video.Application.Contract.dll
+D:\C#dome\Video\src\Video.Application.Contract\bin\Debug\net6.0\Video.Domain.Shared.dll
+D:\C#dome\Video\src\Video.Application.Contract\bin\Debug\net6.0\Video.Domain.Shared.pdb
+D:\C#dome\Video\src\Video.Application.Contract\obj\Debug\net6.0\Video.Application.Contract.csproj.CopyComplete

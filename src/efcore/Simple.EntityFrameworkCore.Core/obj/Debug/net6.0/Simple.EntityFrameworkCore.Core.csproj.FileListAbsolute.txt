@@ -1,0 +1,12 @@
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\bin\Debug\net6.0\Simple.EntityFrameworkCore.Core.deps.json
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\bin\Debug\net6.0\Simple.EntityFrameworkCore.Core.dll
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\bin\Debug\net6.0\Simple.EntityFrameworkCore.Core.pdb
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\Simple.EntityFrameworkCore.Core.csproj.AssemblyReference.cache
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\Simple.EntityFrameworkCore.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\Simple.EntityFrameworkCore.Core.AssemblyInfoInputs.cache
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\Simple.EntityFrameworkCore.Core.AssemblyInfo.cs
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\Simple.EntityFrameworkCore.Core.csproj.CoreCompileInputs.cache
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\Simple.EntityFrameworkCore.Core.dll
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\refint\Simple.EntityFrameworkCore.Core.dll
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\Simple.EntityFrameworkCore.Core.pdb
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.Core\obj\Debug\net6.0\ref\Simple.EntityFrameworkCore.Core.dll

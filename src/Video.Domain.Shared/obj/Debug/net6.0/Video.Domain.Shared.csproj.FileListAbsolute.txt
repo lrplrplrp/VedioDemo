@@ -1,0 +1,12 @@
+D:\C#dome\Video\src\Video.Domain.Shared\bin\Debug\net6.0\Video.Domain.Shared.deps.json
+D:\C#dome\Video\src\Video.Domain.Shared\bin\Debug\net6.0\Video.Domain.Shared.dll
+D:\C#dome\Video\src\Video.Domain.Shared\bin\Debug\net6.0\Video.Domain.Shared.pdb
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\Video.Domain.Shared.csproj.AssemblyReference.cache
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\Video.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\Video.Domain.Shared.AssemblyInfoInputs.cache
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\Video.Domain.Shared.AssemblyInfo.cs
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\Video.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\Video.Domain.Shared.dll
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\refint\Video.Domain.Shared.dll
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\Video.Domain.Shared.pdb
+D:\C#dome\Video\src\Video.Domain.Shared\obj\Debug\net6.0\ref\Video.Domain.Shared.dll

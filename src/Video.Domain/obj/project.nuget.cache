@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EEp28pkuvy30yFiE3pcokTxWwpiQvxqr8oPtzWFD1p1sV2/LNi01DuseEHfW+g9rbir5qcDw4ChQhrYD0CvqTg==",
+  "success": true,
+  "projectFilePath": "d:\\C#dome\\Video\\src\\Video.Domain\\Video.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\28337\\.nuget\\packages\\nswag.annotations\\13.17.0\\nswag.annotations.13.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

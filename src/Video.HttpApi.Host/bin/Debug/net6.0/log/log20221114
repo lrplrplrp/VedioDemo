@@ -1,0 +1,37 @@
+2022-11-14 07:34:14.748 +08:00 [INF] 测试日志提供程序
+2022-11-14 08:02:55.168 +08:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-11-14 08:02:55.176 +08:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-11-14 15:20:09.487 +08:00 [ERR] Path /api/Code message System.Exception: 【127.0.0.1:6379/0】状态不可用，等待后台检查程序恢复方可使用。由于目标计算机积极拒绝，无法连接。
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at FreeRedis.Internal.DefaultRedisSocket.Connect()
+   at FreeRedis.Internal.DefaultRedisSocket.Write(CommandPacket cmd)
+   at FreeRedis.RedisClient.SingleInsideAdapter.<>c__DisplayClass5_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.SingleInsideAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Ping(String message)
+   at FreeRedis.Internal.RedisClientPoolPolicy.PrevReheatConnectionPool(ObjectPool`1 pool, Int32 minPoolSize)
+   --- End of inner exception stack trace ---
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeRedis.RedisClient.PoolingAdapter.GetRedisSocket(CommandPacket cmd)
+   at FreeRedis.RedisClient.PoolingAdapter.<>c__DisplayClass10_0`1.<<AdapterCallAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at FreeRedis.RedisClient.LogCallAsync[T](CommandPacket cmd, Func`1 func)
+   at Video.Application.Code.CodeService.GetAsync(CodeInput input) in D:\C#dome\Video\src\Video.Application\Code\CodeService.cs:line 21
+   at Video.HttpApi.Host.Controllers.CodeController.GetAsync(CodeInput input) in D:\C#dome\Video\src\Video.HttpApi.Host\Controllers\CodeController.cs:line 30
+   at lambda_method187(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

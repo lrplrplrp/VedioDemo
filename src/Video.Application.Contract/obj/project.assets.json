@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "NSwag.Annotations/13.17.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Video.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Video.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Video.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NSwag.Annotations/13.17.0": {
+      "sha512": "7IFTuAYSsONbPAcN0bCsmeEMHBr9IsMRvulW92ur6kuEPDrX5fl4C72GnxMtVSG2PreQNQwSvTOSjvEl7CwWRA==",
+      "type": "package",
+      "path": "nswag.annotations/13.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGetIcon.png",
+        "lib/net45/NSwag.Annotations.dll",
+        "lib/net45/NSwag.Annotations.xml",
+        "lib/netstandard1.0/NSwag.Annotations.dll",
+        "lib/netstandard1.0/NSwag.Annotations.xml",
+        "lib/netstandard2.0/NSwag.Annotations.dll",
+        "lib/netstandard2.0/NSwag.Annotations.xml",
+        "nswag.annotations.13.17.0.nupkg.sha512",
+        "nswag.annotations.nuspec"
+      ]
+    },
+    "Video.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Video.Domain.Shared/Video.Domain.Shared.csproj",
+      "msbuildProject": "../Video.Domain.Shared/Video.Domain.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "NSwag.Annotations >= 13.17.0",
+      "Video.Domain.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\28337\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\C#dome\\Video\\src\\Video.Application.Contract\\Video.Application.Contract.csproj",
+      "projectName": "Video.Application.Contract",
+      "projectPath": "d:\\C#dome\\Video\\src\\Video.Application.Contract\\Video.Application.Contract.csproj",
+      "packagesPath": "C:\\Users\\28337\\.nuget\\packages\\",
+      "outputPath": "d:\\C#dome\\Video\\src\\Video.Application.Contract\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\28337\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "d:\\C#dome\\Video\\src\\Video.Domain.Shared\\Video.Domain.Shared.csproj": {
+              "projectPath": "d:\\C#dome\\Video\\src\\Video.Domain.Shared\\Video.Domain.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "NSwag.Annotations": {
+            "target": "Package",
+            "version": "[13.17.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Video.Application.Contract</name>
+    </assembly>
+    <members>
+        <member name="T:Video.Application.Contract.Base.EntityDto">
+            <summary>
+            实体基类
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.Base.EntityDto.id">
+            <summary>
+            主键
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.Base.EntityDto.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.Base.PageRequestDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.Base.PageRequestDto.Page">
+            <summary>
+            页码：默认1
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.Base.PageRequestDto.PageSize">
+            <summary>
+            页大小：默认20
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.Base.PageRequestDto.SkipCount">
+            <summary>
+            忽略，只传page和pagesize
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Video.Application.Contract.Base.PageRequestDto.MaxResultCount">
+            <summary>
+            忽略
+            </summary>
+        </member>
+        <member name="T:Video.Application.Contract.Base.PageResultDto`1">
+            <summary>
+            分页Dto
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.Base.PageResultDto`1.Items">
+            <summary>
+            分页数据
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.Base.PageResultDto`1.Count">
+            <summary>
+            总数
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:Video.Application.Contract.Base.PageResultDto`1.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{`0})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="count"></param>
+            <param name="items"></param>
+        </member>
+        <member name="P:Video.Application.Contract.Base.VideoInput.Keywords">
+            <summary>
+            关键字
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.Base.VideoInput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.Base.VideoInput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.Code.Dto.CodeInput">
+            <summary>
+            验证码输入
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.Code.Dto.CodeInput.Value">
+            <summary>
+            内容
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.Code.Dto.CodeInput.Type">
+            <summary>
+            验证码类型
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.Code.ICodeService">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="M:Video.Application.Contract.Code.ICodeService.GetAsync(Video.Application.Contract.Code.Dto.CodeInput)">
+            <summary>
+            获取验证码
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Video.Application.Contract.RoleDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.RoleDto.Name">
+            <summary>
+            角色名称
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.RoleDto.Code">
+            <summary>
+            角色编号
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.UserInfos.Dtos.GetListInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Video.Application.Contract.UserInfos.Dtos.LoginInput">
+            <summary>
+            登录接口
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.LoginInput.Username">
+            <summary>
+            用户名
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.LoginInput.Password">
+            <summary>
+            密码
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.UserInfos.Dtos.RegisterInput">
+            <summary>
+            注册输入
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.RegisterInput.Code">
+            <summary>
+            验证码
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.RegisterInput.Name">
+            <summary>
+            用户名
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.RegisterInput.UserName">
+            <summary>
+            账号
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.RegisterInput.Password">
+            <summary>
+            密码（加密）
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.RegisterInput.Avatar">
+            <summary>
+            头像
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.UserInfos.Dtos.UpdateUserInfoInput">
+            <summary>
+            修改用户输入
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UpdateUserInfoInput.Name">
+            <summary>
+            用户名
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UpdateUserInfoInput.Password">
+            <summary>
+            密码（加密）
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UpdateUserInfoInput.Avatar">
+            <summary>
+            头像
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.UserInfos.Dtos.UserInfoDto">
+            <summary>
+            UserInfo
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoDto.Name">
+            <summary>
+            用户名
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoDto.UserName">
+            <summary>
+            账号
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoDto.Password">
+            <summary>
+            密码（加密）
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoDto.Avatar">
+            <summary>
+            头像
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoDto.Status">
+            <summary>
+            是否启用
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.UserInfos.Dtos.UserInfoRoleDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Video.Application.Contract.UserInfos.Dtos.UserInfoRoleDto.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoRoleDto.Name">
+            <summary>
+            用户名
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoRoleDto.UserName">
+            <summary>
+            账号
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoRoleDto.Password">
+            <summary>
+            密码（加密）
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoRoleDto.Avatar">
+            <summary>
+            头像
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoRoleDto.Status">
+            <summary>
+            是否启用
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.Application.Contract.UserInfos.Dtos.UserInfoRoleDto.Role">
+            <summary>
+            角色
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.Application.Contract.UserInfos.IUserInfoService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Video.Application.Contract.UserInfos.IUserInfoService.LoginAsync(Video.Application.Contract.UserInfos.Dtos.LoginInput)">
+            <summary>
+            登录账号获取Token
+            </summary>
+            <param name="loginInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Video.Application.Contract.UserInfos.IUserInfoService.GetAsync">
+            <summary>
+            获取用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Video.Application.Contract.UserInfos.IUserInfoService.UpdateAsync(Video.Application.Contract.UserInfos.Dtos.UpdateUserInfoInput)">
+            <summary>
+            编辑用户信息
+            </summary>
+            <param name="updateUserInfoInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Video.Application.Contract.UserInfos.IUserInfoService.RegisterAsync(Video.Application.Contract.UserInfos.Dtos.RegisterInput)">
+            <summary>
+            注册账号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Video.Application.Contract.UserInfos.IUserInfoService.GetListAsync(Video.Application.Contract.UserInfos.Dtos.GetListInput)">
+            <summary>
+            获取用户列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Video.Application.Contract.UserInfos.IUserInfoService.DeletesAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            删除用户
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Video.Application.Contract.UserInfos.IUserInfoService.StatusAsync(System.Collections.Generic.IEnumerable{System.Guid},System.Boolean)">
+            <summary>
+            禁用用户
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,17 @@
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\bin\Debug\net6.0\Simple.EntityFrameworkCore.MySql.deps.json
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\bin\Debug\net6.0\Simple.EntityFrameworkCore.MySql.dll
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\bin\Debug\net6.0\Simple.EntityFrameworkCore.MySql.pdb
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\bin\Debug\net6.0\Simpie.EntityFrameworkCore.dll
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\bin\Debug\net6.0\Simple.EntityFrameworkCore.Core.dll
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\bin\Debug\net6.0\Simpie.EntityFrameworkCore.pdb
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\bin\Debug\net6.0\Simple.EntityFrameworkCore.Core.pdb
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\Simple.EntityFrameworkCore.MySql.csproj.AssemblyReference.cache
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\Simple.EntityFrameworkCore.MySql.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\Simple.EntityFrameworkCore.MySql.AssemblyInfoInputs.cache
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\Simple.EntityFrameworkCore.MySql.AssemblyInfo.cs
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\Simple.EntityFrameworkCore.MySql.csproj.CoreCompileInputs.cache
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\Simple.EntityFrameworkCore.MySql.csproj.CopyComplete
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\Simple.EntityFrameworkCore.MySql.dll
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\refint\Simple.EntityFrameworkCore.MySql.dll
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\Simple.EntityFrameworkCore.MySql.pdb
+D:\C#dome\Video\src\efcore\Simple.EntityFrameworkCore.MySql\obj\Debug\net6.0\ref\Simple.EntityFrameworkCore.MySql.dll

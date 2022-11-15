@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Video.HttpApi.Host</name>
+    </assembly>
+    <members>
+        <member name="T:Video.HttpApi.Host.Controllers.AuthController">
+            <summary>
+            认证
+            </summary>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.AuthController.#ctor(Video.Application.Contract.UserInfos.IUserInfoService,Microsoft.Extensions.Options.IOptions{Video.HttpApi.Host.Options.JWTOptions},FreeRedis.RedisClient)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userInfoService"></param>
+            <param name="options"></param>
+            <param name="redisCilent"></param>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.AuthController.PostAsync(Video.Application.Contract.UserInfos.Dtos.LoginInput)">
+            <summary>
+            登录
+            </summary>
+            <param name="loginInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.AuthController.RegisterAsync(Video.Application.Contract.UserInfos.Dtos.RegisterInput)">
+            <summary>
+            注册
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Video.HttpApi.Host.Controllers.CodeController">
+            <summary>
+            验证码服务
+            </summary>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.CodeController.#ctor(Video.Application.Contract.Code.ICodeService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="codeService"></param>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.CodeController.GetAsync(Video.Application.Contract.Code.Dto.CodeInput)">
+            <summary>
+            获取验证码
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Video.HttpApi.Host.Controllers.UserInfoController">
+            <summary>
+            登录账号获取用户信息
+            </summary>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.UserInfoController.#ctor(Video.Application.Contract.UserInfos.IUserInfoService)">
+            <summary>
+            
+            </summary>
+            <param name="userInfoService"></param>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.UserInfoController.GetAsync">
+            <summary>
+            获取用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.UserInfoController.UpdateAsync(Video.Application.Contract.UserInfos.Dtos.UpdateUserInfoInput)">
+            <summary>
+            修改用户数据
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.UserInfoController.GetListAsync(Video.Application.Contract.UserInfos.Dtos.GetListInput)">
+            <summary>
+            获取用户列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.UserInfoController.DeleteAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            删除用户
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Video.HttpApi.Host.Controllers.UserInfoController.StatusAsync(System.Collections.Generic.IEnumerable{System.Guid},System.Boolean)">
+            <summary>
+            禁用用户
+            </summary>
+            <param name="ids"></param>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Video.HttpApi.Host.Filters.ExceptionFilter">
+            <summary>
+            异常过滤器
+            </summary>
+        </member>
+        <member name="M:Video.HttpApi.Host.Filters.ExceptionFilter.#ctor(Microsoft.Extensions.Logging.ILogger{Video.HttpApi.Host.Filters.ExceptionFilter})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Video.HttpApi.Host.Filters.ExceptionFilter.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            异常处理
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Video.HttpApi.Host.Filters.ResponseFilter">
+            <summary>
+            过滤器
+            </summary>
+        </member>
+        <member name="M:Video.HttpApi.Host.Filters.ResponseFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:Video.HttpApi.Host.Options.JWTOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Video.HttpApi.Host.Options.JWTOptions.SecretKey">
+            <summary>
+            密钥
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.HttpApi.Host.Options.JWTOptions.Issuer">
+            <summary>
+            
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.HttpApi.Host.Options.JWTOptions.Audience">
+            <summary>
+            
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.HttpApi.Host.Options.JWTOptions.ExpireMinutes">
+            <summary>
+            
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Video.HttpApi.Host.Views.ResponseView">
+            <summary>
+            响应视图
+            </summary>
+        </member>
+        <member name="M:Video.HttpApi.Host.Views.ResponseView.#ctor(System.Int32,System.String,System.Object)">
+            <summary>
+             构造函数
+            </summary>
+            <param name="code"></param>
+            <param name="message"></param>
+            <param name="data"></param>
+        </member>
+        <member name="P:Video.HttpApi.Host.Views.ResponseView.Code">
+            <summary>
+            状态码
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.HttpApi.Host.Views.ResponseView.Message">
+            <summary>
+            提示消息
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Video.HttpApi.Host.Views.ResponseView.Data">
+            <summary>
+            数据
+            </summary>
+            <value></value>
+        </member>
+    </members>
+</doc>
